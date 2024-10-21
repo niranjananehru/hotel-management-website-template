@@ -256,13 +256,15 @@ a.nav-link {
 .custom-room-cards .card .card-footer .footer-head {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.8rem;
 }
 .custom-room-cards .card .card-footer .footer-head .label {
   color: #be0854;
+  font-size: 1.3rem;
 }
 .custom-room-cards .card .card-footer .footer-body {
   color: rgba(0, 0, 0, 0.8);
-  font-weight: bolder;
+  font-weight: normal;
 }
 
 .custom-room-cards .card-expanded {
@@ -329,10 +331,11 @@ a.nav-link {
   background-color: rgba(0, 0, 0, 0.5);
 }
 #home-header #home-header--bg-image {
-  background-image: url("../media/images/home-header-1.jpg");
+  /* background-image: url("../media/images/home-header-1.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: #156c79f7;
 }
 #home-header .home-header--title {
   width: 100%;
@@ -817,4 +820,41 @@ a.ui-state-default:hover {
 
 span.ui-state-default {
   border: none !important;
+}
+.card .card-body{
+  background-color: #f7f7f7;
+}
+.card-chip{
+  font-weight: normal;
+  font-size: .8rem;
+  background-color: #80808052;
+  padding: .3rem .6rem;
+  border-radius: 5px;
+  margin-right: .5rem;
+}
+.main-ament{
+  margin: 1rem 0 0.8rem 0;
+}
+.ament-icons{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.read-more{
+  margin: 1rem 0;
+  color: red;
+}
+.read-more a{
+  cursor: pointer;
+}
+.read-more-icon{
+  width: 20px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.ament-icons img{
+  width: 100%;
+  height: 100%;
 }
